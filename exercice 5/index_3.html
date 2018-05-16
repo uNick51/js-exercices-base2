@@ -7,15 +7,18 @@
   <body>
     <div class="conteneur">
 
-      <img src="images/image1.jpg" id="image1" />
-      <img src="images/image2.jpg" id="image2"  />
+      <img src="images/image1.jpg" id="image1" onmouseover="src='images/image1_2.jpg'" />
+      <img src="images/image2.jpg" id="image2" onmouseover="src='images/image2_2.jpg'" />
       <img src="images/image3.jpg" id="image3" onmouseover="src='images/image3_2.jpg'" />
       <img src="images/image4.jpg" id="image4" onmouseover="src='images/image4_2.jpg'" />
       <img src="images/image5.jpg" id="image5" onmouseover="src='images/image5_2.jpg'" />
 
 
 <script type="text/javascript">
-document.getElementById("image1").mouseover="src='images/image1_2.jpg'"
+function survol() {
+document.getElementById("").src= onmouseover;
+}
+
 </script>
 
     </div>

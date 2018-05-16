@@ -7,6 +7,18 @@
 <body>
   <form>
     <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" />
+
+<script type="text/javascript">
+
+document.addEventListener('keypress', (event) => {
+  const nomTouche = event.key;
+
+  alert("ça c'est la touche '" + nomTouche + "'");
+});
+
+
+</script>
+
   </form>
 </body>
 </html>

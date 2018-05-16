@@ -5,8 +5,20 @@
   <title>Exercice 2</title>
 </head>
 <body>
-  <form>
+  <form id="form">
     <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom"/>
   </form>
+  <script type="text/javascript">
+
+var elem = document.getElementById("nom");
+
+elem.onblur = afficherMessage;
+
+function afficherMessage() {
+	alert("Merci de votre participation");
+}
+
+
+  </script>
 </body>
 </html>
